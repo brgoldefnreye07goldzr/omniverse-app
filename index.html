@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Ominverse</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
@@ -13,14 +13,15 @@
 <body>
 	<header>
 		<div class="container">
-			<div class="row justly-content-between align-items-center">
+			<div class="row justify-content-between align-items-center">
 				<div class="col-auto">
-				<h1>MyOrderNew</h1>
+				<h1>Omniverse Security</h1>
 			</div>
 			<div class="col-auto">
 			<div class="avatar-container" data-bs-toggle="modal" data-bs-target="#exampleModal">
-				<img src="img/avatar.jpg" alt="">
+				<img src="img/avatar.gif" alt="">
                  <i class="fa-solid fa-gear"></i>
+      </header>
 			</div>
 			</div>
 		    </div>
@@ -52,7 +53,133 @@
     </div>
   </div>
 </div>
-	</header>
+<div class="d-grid gap-2">
+	<input type="text" name="searchInput" id="searchInput">
+  <button class="btn btn-primary btn-block" type="button">Buscar</button>
+</div>
+<div class="products-list-container">
+				<h2 class="section-title">Los más pedidos</h2>
+				<ul>
+					<li>
+						<a href="#">
+							<div class="product-image">
+								<img src="img/producto1.png" alt="">
+							</div>
+							<div class="product-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>Descuento</span><span>Envío gratis</span>
+									</div>
+									<h3 class="product-name">Burrito especial</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+								<p class="product-price"><span>$</span>14,99</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="product-image">
+								<img src="img/producto2.png" alt="">
+							</div>
+							<div class="product-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>2x1</span><span>Descuento 50%</span>
+									</div>
+									<h3 class="product-name">Postre de la casa</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+								<p class="product-price"><span>$</span>6,99</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="product-image">
+								<img src="img/producto3.png" alt="">
+							</div>
+							<div class="product-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>2x1</span><span>Envío gratis</span><span>Descuento</span>
+									</div>
+									<h3 class="product-name">Salmón</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+								<p class="product-price"><span>$</span>21,47</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="product-image">
+								<img src="img/producto4.png" alt="">
+							</div>
+							<div class="product-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>Envío gratis</span>
+									</div>
+									<h3 class="product-name">Donas glaseadas x6</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+								<p class="product-price"><span>$</span>9,99</p>
+							</div>
+						</a>
+					</li>
+
+					<li>
+						<a href="#">
+							<div class="product-image">
+								<img src="img/producto5.png" alt="">
+							</div>
+							<div class="product-info">
+								<div class="product-info-inner">
+									<div class="tags">
+										<span>Envío gratis</span><span>Combo</span>
+									</div>
+									<h3 class="product-name">Mega hamburguesa</h3>
+									<p class="restaurant">Restaurante de prueba</p>
+									<div class="stars">
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+									</div>
+								</div>
+								<p class="product-price"><span>$</span>15,99</p>
+							</div>
+						</a>
+					</li>
+				</ul>
 	<script src="js/jquery.js"></script>
 	<script src="js/popper.js"></script>
 	<script src="js/bootstrap.min.js"></script>
